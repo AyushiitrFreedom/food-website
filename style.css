@@ -232,5 +232,136 @@
 .content div:nth-child(2) {
     width: 100vw;
     overflow: hidden;
-    border: 1px solid black;
+    /* border: 1px solid black; */
+}
+
+.download {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #252B42;
+}
+
+.download-heading {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 57px;
+
+    /* or 142% */
+    text-align: center;
+    letter-spacing: 0.2px;
+
+    /* Light text */
+    color: #FFFFFF;
+    margin-top: 120px;
+}
+
+.download-text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 38px;
+
+    /* or 158% */
+    text-align: center;
+    letter-spacing: 0.2px;
+
+    /* Light Gray */
+    color: #BDBDBD;
+
+
+}
+
+.download-buttons {
+    margin-top: 54px;
+    margin-bottom: 112px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+.Hero-btn-1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 28px;
+
+    /* identical to box height, or 175% */
+    letter-spacing: 0.2px;
+
+    /* Light text */
+    color: #FFFFFF;
+    padding: 18px 31px;
+    background: #FA4A0C;
+    border-radius: 10px;
+
+
+}
+
+.Hero-btn-2 {
+    border-radius: 15px;
+    border: 1px solid white;
+    padding: 18px 50px;
+    background: #252B42;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 28px;
+
+    /* identical to box height, or 175% */
+    letter-spacing: 0.2px;
+
+    /* Light text */
+    color: #FFFFFF;
+
+
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.footer img {
+    display: none;
+}
+
+.footer:first-child {
+    display: none;
+}
+
+.logos {
+    margin-top: 70px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    padding-left: 50px;
+}
+
+.logos img {
+    margin: 0 10px;
+    display: inline;
+}
+
+.footer-text {
+    margin-bottom: 50px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
+
+    /* identical to box height, or 150% */
+
+    letter-spacing: 0.1px;
+
+    /* second text */
+    color: #5C5C5C;
 }
